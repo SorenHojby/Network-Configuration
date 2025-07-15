@@ -1,3 +1,6 @@
-/output/*.conf
-/core/__pycache__/
-/logs/*.log
+output/
+core/__pycache__/
+logs/
+__pycache__/
+*.pyc
+venv/
