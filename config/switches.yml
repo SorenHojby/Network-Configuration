@@ -1,0 +1,8 @@
+- hostname: switch01
+  ip: 10.0.0.1
+  location: Billund
+  vlan: 42
+- hostname: switch02
+  ip: 10.0.0.2
+  location: Prague
+  vlan: 99

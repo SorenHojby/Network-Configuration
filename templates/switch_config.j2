@@ -1,0 +1,4 @@
+hostname {{ switch.hostname }}
+interface vlan {{ switch.vlan }}
+ip address {{ switch.ip }} 255.255.255.0
+description "Auto-configured for {{ switch.location }}"
