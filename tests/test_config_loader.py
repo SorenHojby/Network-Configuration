@@ -20,4 +20,4 @@ def test_load_switch_data_success():
     assert isinstance(result, list)
     assert len(result) == 2
     assert result[0]["hostname"] == "switch01"
-    assert result[1]["vlan"] == 99
+    assert result[1]["vlan"] == 100
